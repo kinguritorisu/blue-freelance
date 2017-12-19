@@ -228,4 +228,53 @@ body {
 	margin: 0 10px;
 }
 
+.home-1 {
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
 
+.nav-menu {
+    font-family: Pangram;
+    font-weight: 500;
+    margin: 85px auto 0 auto;
+    display: table;
+}
+
+.nav-menu a {
+    float: left;
+    margin: 0;
+    padding: 10px 50px;    
+    border: 1px solid #2F9DF2;
+    color: #2F9DF2;    
+    text-decoration: none;
+}
+
+.nav-menu .nav-l.selected {
+    color: #fff;
+    background: #2F9DF2;
+}
+
+.nav-menu .nav-l:nth-child(1) {
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+.nav-menu .nav-l:nth-child(2) {
+    border-left: none;
+    border-right: none;
+}
+
+.nav-menu .nav-l:nth-child(4) {
+    border-left: none;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.go-menu {
+    margin:  235px auto 0 auto;
+    display: table;
+}
+
+#circle-1{width: 268px;height: 268px; border-radius: 50%; background: #2F9DF2; float: left; margin-right:  60px; background-image: url(../img/icons/Path%2022.png); background-repeat: no-repeat; background-position: center;}
+#circle-2{width: 268px;height: 268px; border-radius: 50%; background: #FFD500; float: left; margin-right:  60px; background-image: url(../img/icons/Path%2021.png); background-repeat: no-repeat; background-position: center;}
+#circle-3{width: 268px;height: 268px; border-radius: 50%; background: #06D6D6; float: left;background-image: url(../img/icons/Union%208.png); background-repeat: no-repeat; background-position: center;} 

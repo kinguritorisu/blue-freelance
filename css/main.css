@@ -273,6 +273,7 @@ body {
 .go-menu {
     margin:  235px auto 0 auto;
     display: table;
+    width: 932px;
 }
 .bl1, .bl2, .bl3 {
     font-family: Pangram;

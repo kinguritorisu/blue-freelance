@@ -1,0 +1,231 @@
+@font-face {font-family: 'Pangram-Light';src: url('fonts/Pangram-Light.otf');}
+@font-face {font-family: 'Pangram-Regular';src: url('fonts/Pangram-Regular.otf');}
+@font-face {font-family: 'Pangram-Medium';src: url('fonts/Pangram-Medium.otf');}
+@font-face {font-family: 'Pangram-Bold';src: url('fonts/Pangram-Bold.otf');}
+@font-face {font-family: 'Pangram-ExtraBold';src: url('fonts/Pangram-ExtraBold.otf');}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+a:active, a:hover, input {
+  outline: 0; }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*==================================================
+											LOGIN
+==================================================*/
+
+.loginBox {
+    width: 515px;
+    height: 423px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+    -webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+    -moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+    -o-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+    position: absolute;
+}
+
+.loginTitle {
+	color: #B7B7B7;
+	font-size: 27px;
+	font-family: Pangram;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 30px 0 17px;
+}
+
+.txt-input {
+	height: 40px;
+	width: 255px;
+	background-color: #FBFBFB;
+	font-size: 15px;
+	font-family: Pangram;
+	font-weight: 300;
+	margin-bottom: 10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	border: 0.4px solid #B7B7B7;
+	padding-left: 45px;
+}
+
+.txt-input::placeholder {
+	color: #D6D6D6;
+	font-size: 15px;
+}
+
+.email-input:before {
+	content: '';
+	background-image: url(../img/email.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	padding: 42px 0 0 48px;
+}
+
+.pass-input:before {
+	content: '';
+	background-image: url(../img/password.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	padding: 42px 0 0 48px;
+}
+
+.login-btn {
+	border: none;
+	width: 202px;
+	height: 40px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	color: #fff;
+	background-color: #2F9DF2;
+	font-family: Pangram;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 25px 0 10px;
+	cursor: pointer;
+}
+
+.no-pass {
+	color: #2F9DF2;
+	font-size: 15px;
+	font-family: Pangram;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.or-line {
+	font-size: 17px;
+	font-family: Pangram;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #B7B7B7;
+	margin: 35px 0;
+}
+
+.or-line::before, .or-line::after {
+	content: '';
+	height: 1px;
+	width: 24%;
+	position: relative;
+	background-color: #B7B7B7;
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.or-line span {
+	margin: 0 10px;
+}
+
+.reg-link {
+	font-size: 14px;
+	font-family: Pangram;
+	font-weight: normal;
+	color: #B7B7B7;
+	text-decoration: none;
+}
+
+.reg-link span{
+	color: #2F9DF2;
+}
+
+/*==================================================
+											REGISTER
+==================================================*/
+
+.registerBox {
+	width: 515px;
+	height: 547px;
+	text-align: center;
+	background: #fff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+	-webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+	-moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+	-o-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.name-input:before {
+	content: '';
+	background-image: url(../img/name.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	padding: 42px 0 0 48px;
+}
+
+.phone-input:before {
+	content: '';
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	padding: 42px 0 0 48px;
+}
+
+.conf-pass-input:before {
+	content: '';
+	background-image: url(../img/password.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	padding: 42px 0 0 48px;
+}
+
+.or-line-register {
+	font-size: 17px;
+	font-family: Pangram;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #B7B7B7;
+	margin: 28px 0;
+}
+
+.or-line-register::before, .or-line-register::after {
+	content: '';
+	height: 1px;
+	width: 24%;
+	position: relative;
+	background-color: #B7B7B7;
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.or-line-register span {
+	margin: 0 10px;
+}
+
+

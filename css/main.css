@@ -300,3 +300,41 @@ body {
 }
 
 /* --------------------------------- HOME PAGE END*/
+
+/*==================================================
+											NEW CLIENT
+==================================================*/
+
+.choice {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+}
+
+.choice input {
+   opacity: 0;
+}
+
+.checkmark {
+  height: 85px;
+  width: 85px;
+  background-color: #eee;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.choice:hover input ~ .checkmark {
+   background-color: #ccc;
+}
+
+.choice input:checked ~ .checkmark {
+   background-color: #2196F3;
+}

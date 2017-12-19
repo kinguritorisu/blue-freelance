@@ -228,19 +228,19 @@ body {
 	margin: 0 10px;
 }
 
+/*--------------------------------------HOME PAGE START*/
+
 .home-1 {
     width: 1000px;
     margin: 0 auto;
     display: block;
 }
-
 .nav-menu {
     font-family: Pangram;
     font-weight: 500;
     margin: 85px auto 0 auto;
     display: table;
 }
-
 .nav-menu a {
     float: left;
     margin: 0;
@@ -250,16 +250,13 @@ body {
     text-decoration: none;
     transition: all 0.2s ease;
 }
-
 .nav-menu a:hover {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.03)
 }
-
 .nav-menu .nav-l.selected {
     color: #fff;
     background: #2F9DF2;
 }
-
 .nav-menu .nav-l:nth-child(1) {
     border-top-left-radius: 22px;
     border-bottom-left-radius: 22px;
@@ -268,17 +265,28 @@ body {
     border-left: none;
     border-right: none;
 }
-
 .nav-menu .nav-l:nth-child(4) {
     border-left: none;
     border-top-right-radius: 22px;
     border-bottom-right-radius: 22px;
 }
-
 .go-menu {
     margin:  235px auto 0 auto;
     display: table;
 }
+.bl1, .bl2, .bl3 {
+    font-family: Pangram;
+    font-size: 22px;
+    font-weight: 500;
+    width: 268px;
+    margin: 50px 0 0 0;
+    display: inline-block;
+    text-align: center;
+}
+.bl1 {margin-right: 60px;}
+.bl2 {margin-right: 60px;}
+.go-menu a {color: #858585;text-decoration: none;}
+
 
 #circle-1{width: 268px;height: 268px; border-radius: 50%; background: #2F9DF2; float: left; margin-right:  60px; background-image: url(../img/icons/Path%2022.png); background-repeat: no-repeat; background-position: center; transition: all 0.2s ease;}
 #circle-2{width: 268px;height: 268px; border-radius: 50%; background: #FFD500; float: left; margin-right:  60px; background-image: url(../img/icons/Path%2021.png); background-repeat: no-repeat; background-position: center; transition: all 0.2s ease;}
@@ -289,3 +297,5 @@ body {
 #circle-3:hover {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.1)
 }
+
+/* --------------------------------- HOME PAGE END*/

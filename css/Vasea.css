@@ -59,14 +59,28 @@ body {
     border-top-right-radius: 22px;
     border-bottom-right-radius: 22px;
 }
+
+.nav-menu .user-l {
+    margin-left: 95px;
+    font-family: Pangram-Bold;
+    border-color: #858585;
+    border-radius: 22px;
+    color: #858585;
+    padding: 10px 85px 10px 40px;
+    background-image: url(../img/dropdown-arrow-gray-64px.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 16px;
+}
+
 .go-menu {
     margin:  235px auto 0 auto;
     display: table;
     width: 932px;
 }
 .bl1, .bl2, .bl3 {
-    font-family: Pangram-Bold;
-    font-size: 22px;
+    font-family: Pangram-Regular;
+    font-size: 24px;
     width: 268px;
     margin: 50px 0 0 0;
     display: inline-block;

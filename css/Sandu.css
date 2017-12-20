@@ -1,8 +1,8 @@
-@font-face {font-family: 'Pangram-Light';src: url('fonts/Pangram-Light.otf');}
-@font-face {font-family: 'Pangram-Regular';src: url('fonts/Pangram-Regular.otf');}
-@font-face {font-family: 'Pangram-Medium';src: url('fonts/Pangram-Medium.otf');}
-@font-face {font-family: 'Pangram-Bold';src: url('fonts/Pangram-Bold.otf');}
-@font-face {font-family: 'Pangram-ExtraBold';src: url('fonts/Pangram-ExtraBold.otf');}
+@font-face {font-family: 'Pangram-Light';src: url('../fonts/Pangram-Light.otf');}
+@font-face {font-family: 'Pangram-Regular';src: url('../fonts/Pangram-Regular.otf');}
+@font-face {font-family: 'Pangram-Medium';src: url('../fonts/Pangram-Medium.otf');}
+@font-face {font-family: 'Pangram-Bold';src: url('../fonts/Pangram-Bold.otf');}
+@font-face {font-family: 'Pangram-ExtraBold';src: url('../fonts/Pangram-ExtraBold.otf');}
 
 p, h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -46,7 +46,7 @@ body {
 .loginTitle {
 	color: #B7B7B7;
 	font-size: 27px;
-	font-family: Pangram;
+	font-family: Pangram-Regular;
 	font-weight: normal;
 	text-transform: uppercase;
 	margin: 30px 0 17px;
@@ -57,7 +57,7 @@ body {
 	width: 255px;
 	background-color: #FBFBFB;
 	font-size: 15px;
-	font-family: Pangram;
+	font-family: Pangram-Light;
 	font-weight: 300;
 	margin-bottom: 10px;
 	-webkit-border-radius: 20px;
@@ -101,7 +101,7 @@ body {
 	border-radius: 20px;
 	color: #fff;
 	background-color: #2F9DF2;
-	font-family: Pangram;
+	font-family: Pangram-Bold;
 	font-weight: bold;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -112,14 +112,14 @@ body {
 .no-pass {
 	color: #2F9DF2;
 	font-size: 15px;
-	font-family: Pangram;
+	font-family: Pangram-Light;
 	font-weight: 300;
 	text-decoration: none;
 }
 
 .or-line {
 	font-size: 17px;
-	font-family: Pangram;
+	font-family: Pangram-Regular;
 	font-weight: normal;
 	text-transform: uppercase;
 	color: #B7B7B7;
@@ -142,7 +142,7 @@ body {
 
 .reg-link {
 	font-size: 14px;
-	font-family: Pangram;
+	font-family: Pangram-Regular;
 	font-weight: normal;
 	color: #B7B7B7;
 	text-decoration: none;
@@ -207,7 +207,7 @@ body {
 
 .or-line-register {
 	font-size: 17px;
-	font-family: Pangram;
+	font-family: Pangram-Regular;
 	font-weight: normal;
 	text-transform: uppercase;
 	color: #B7B7B7;

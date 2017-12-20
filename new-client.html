@@ -7,70 +7,81 @@
 	<title>Nouveau client</title>
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="css/Sandu.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/Vasea.css">
 
 
 </head>
 <body>
 
-<h3>Nouveau client</h3>
+<div class="home-1">
+  <div class="nav-menu">
+    <a class="nav-l selected" href="#">Home</a>
+    <a class="nav-l" href="#">Clients</a>
+    <a class="nav-l" href="#">Personnel</a>
+    <a class="nav-l" href="#">Notifications</a>
+    <a class="user-l" href="#">Frank Franky</a>
+  </div>
+</div>
 
 <div class="newClient">
+	<h1 class="newClient_title">Nouveau client</h1>
+	<div class="newClient_box">
+		<div class="bodyChoice">
+			<label class="choice">
+				<input type="radio" name="section" value="Demenagement" checked="checked">
+				<span class="checkmark check1"></span>
+				<div class="checkName"><p href="#">Demenagement</p></div>
+			</label>
+			<label class="choice">
+				<input type="radio" name="section" value="Monte - Meubles">
+				<span class="checkmark check2"></span>
+				<div class="checkName"><p href="#">Monte - Meubles</p></div>
+			</label>
+			<label class="choice">
+				<input type="radio" name="section" value="Garde meubles">
+				<span class="checkmark check3"></span>
+				<div class="checkName"><p href="#">Garde meubles</p></div>
+			</label>
 
-	<div class="bodyChoice">
-		<label class="choice">
-			<input type="radio" name="section" value="Demenagement">
-			<span class="checkmark"></span>
-			<div class="check1"><a href="#">Demenagement</a></div>
-		</label>
-		<label class="choice">
-			<input type="radio" name="section" value="Monte - Meubles">
-			<span class="checkmark"></span>
-			<div class="check2"><a href="#">Monte - Meubles</a></div>
-		</label>
-		<label class="choice">
-			<input type="radio" name="section" value="Garde meubles">
-			<span class="checkmark"></span>
-			<div class="check3"><a href="#">Garde meubles</a></div>
-		</label>
-	</div>
+			<div class="col-1">
+				<p class="inputName">
+					Me / Nme / SA / SAS / SARL
+				</p>
+				<input class="newCl_input" type="text" name="Mr">
+				<p class="inputName">
+					Nom Prenom
+				</p>
+				<input class="newCl_input" type="text" name="Name">
+				<p class="inputName">
+					Adresse chargement
+				</p>
+				<input class="newCl_input" type="text" name="Address">
+				<p class="inputName">
+					Code Postal
+				</p>
+				<input class="newCl_input" type="text" name="Postal code">
+			</div>
 
-	<div class="col-1">
-		<p class="inputName">
-			Me / Nme / SA / SAS / SARL
-		</p>
-		<input class="newCl_input" type="text" name="Mr">
-		<p class="inputName">
-			Nom Prenom
-		</p>
-		<input class="newCl_input" type="text" name="Name">
-		<p class="inputName">
-			Adresse chargement
-		</p>
-		<input class="newCl_input" type="text" name="Address">
-		<p class="inputName">
-			Code Postal
-		</p>
-		<input class="newCl_input" type="text" name="Postal code">
-	</div>
-
-	<div class="col-2">
-		<p class="inputName">
-			Ville
-		</p>
-		<input class="newCl_input" type="text" name="City">
-		<p class="inputName">
-			Tel fixe / mobile
-		</p>
-		<input class="newCl_input" type="text" name="Phone">
-		<p class="inputName">
-			E-mail
-		</p>
-		<input class="newCl_input" type="text" name="Email">
-		<p class="inputName">
-			Origine
-		</p>
-		<input class="newCl_input" type="text" name="Origin">
+			<div class="col-2">
+				<p class="inputName">
+					Ville
+				</p>
+				<input class="newCl_input" type="text" name="City">
+				<p class="inputName">
+					Tel fixe / mobile
+				</p>
+				<input class="newCl_input" type="text" name="Phone">
+				<p class="inputName">
+					E-mail
+				</p>
+				<input class="newCl_input" type="text" name="Email">
+				<p class="inputName">
+					Origine
+				</p>
+				<input class="newCl_input" type="text" name="Origin">
+			</div>
+		</div>
 	</div>
 </div>
 

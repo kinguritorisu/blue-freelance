@@ -22,25 +22,25 @@ body {
 ==================================================*/
 
 .loginBox {
-    width: 515px;
-    height: 423px;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    background: #fff;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -o-border-radius: 10px;
-    box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
-    -webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
-    -moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
-    -o-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
-    position: absolute;
+  width: 515px;
+  height: 423px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+  -webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+  -moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+  -o-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+  position: absolute;
 }
 
 .loginTitle {
@@ -232,16 +232,53 @@ body {
 											NEW CLIENT
 ==================================================*/
 
+.newClient {
+	width: 988px;
+	margin: 0 auto;
+}
+
+.newClient_title {
+	font-size: 30px;
+	font-family: Pangram-Bold;
+	font-weight: bold;
+	color: #B9B9B9;
+	margin: 75px 0 30px;
+	display: table;
+}
+
+.newClient_box {
+	width: 988px;
+	height: 777px;
+	background-color: #fff;
+	margin: 0 auto;
+  -webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+  -moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+  -ms-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+  -o-box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+  box-shadow: 1px 1px 10px 5px rgba(0,0,0, 0.1);
+  -webkit-border-radius: 10px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.bodyChoice {
+	margin: 0 auto;
+	width: 980px;
+}
+
 .choice {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+	width: 140px;
+	margin-top: 67px;
+  padding-left: 135px;
+  margin-bottom: 15px;
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -o-user-select: none;
   user-select: none;
   display: inline-block;
 }
@@ -250,18 +287,98 @@ body {
    opacity: 0;
 }
 
-.checkmark {
-  height: 85px;
-  width: 85px;
-  background-color: #eee;
-  display: inline-block;
-  border-radius: 5px;
-}
-
 .choice:hover input ~ .checkmark {
    background-color: #ccc;
 }
 
 .choice input:checked ~ .checkmark {
-   background-color: #2196F3;
+   background-color: #2F9DF2;
+}
+
+.checkmark {
+  height: 85px;
+  width: 85px;
+  background-color: #eee;
+  display: inline-block;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.check1:before {
+	content: '';
+	background-image: url(../img/icons/Union9.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 42px;
+	height: 37px;
+	display: block;
+	margin: 25% auto;
+	color: #95989A;
+}
+
+.check2:before {
+	content: '';
+	background-image: url(../img/icons/Subtraction1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 47px;
+	height: 48px;
+	display: block;
+	margin: 25% auto;
+}
+
+.check3:before {
+	content: '';
+	background-image: url(../img/icons/box.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 41px;
+	height: 40px;
+	display: block;
+	margin: 25% auto;
+}
+
+.checkName {
+	color: #2F9DF2;
+	font-size: 17px;
+	font-family: Pangram-Regular;
+	font-weight: normal;
+	text-align: center;
+}
+
+.col-1 {
+	width: 455px;
+	float: left;
+	margin: 72px 0 0 70px;
+
+}
+
+.col-2 {
+	width: 455px;
+	float: right;
+	margin: 72px 0 0;
+}
+
+.inputName {
+	font-size: 20px;
+	font-family: Pangram-Light;
+	font-weight: 300;
+	color: #95989A;
+	margin-bottom: 5px;
+}
+
+.newCl_input {
+	width: 380px;
+	height: 40px;
+	margin-bottom: 25px;
+	background-color: #FBFBFB;
+	border: 1px solid #eee;
+	-webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
 }

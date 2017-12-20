@@ -1,8 +1,8 @@
-@font-face {font-family: 'Pangram-Light';src: url('/fonts/Pangram-Light.otf');}
-@font-face {font-family: 'Pangram-Regular';src: url('/fonts/Pangram-Regular.otf');}
-@font-face {font-family: 'Pangram-Medium';src: url('/fonts/Pangram-Medium.otf');}
-@font-face {font-family: 'Pangram-Bold';src: url('/fonts/Pangram-Bold.otf');}
-@font-face {font-family: 'Pangram-ExtraBold';src: url('/fonts/Pangram-ExtraBold.otf');}
+@font-face {font-family: 'Pangram-Light';src: url('../fonts/Pangram-Light.otf');}
+@font-face {font-family: 'Pangram-Regular';src: url('../fonts/Pangram-Regular.otf');}
+@font-face {font-family: 'Pangram-Medium';src: url('../fonts/Pangram-Medium.otf');}
+@font-face {font-family: 'Pangram-Bold';src: url('../fonts/Pangram-Bold.otf');}
+@font-face {font-family: 'Pangram-ExtraBold';src: url('../fonts/Pangram-ExtraBold.otf');}
 
 p, h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -25,7 +25,7 @@ body {
     display: block;
 }
 .nav-menu {
-    font-family: Pangram;
+    font-family: Pangram-Regular;
     font-weight: 500;
     margin: 85px auto 0 auto;
     display: table;
@@ -65,9 +65,8 @@ body {
     width: 932px;
 }
 .bl1, .bl2, .bl3 {
-    font-family: Pangram;
+    font-family: Pangram-Bold;
     font-size: 22px;
-    font-weight: 500;
     width: 268px;
     margin: 50px 0 0 0;
     display: inline-block;

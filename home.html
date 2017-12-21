@@ -5,7 +5,8 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="css/Vasea.css">        
     </head>
 
@@ -16,7 +17,15 @@
             <a class="nav-l" href="#">Clients</a>
             <a class="nav-l" href="#">Personnel</a>
             <a class="nav-l" href="#">Notifications</a>
-            <a class="user-l" href="#">Frank Franky</a>
+            <div class="dropdown-btn">
+                <a class="user-l" onclick="myFunction()" href="#">Frank Franky<i class="down"></i></a>
+                <div class="dropdown-content">
+                    <li><a href="#settings">Setting</a></li>
+                    <div class="line"></div>
+                    <li><a href="#out">Sign out</a></li>
+                </div>
+            </div>
+            
         </div>
         <div class="go-menu">
             <a href="#"><div id="circle-1"></div></a>
@@ -29,5 +38,13 @@
     </div>
 
 </body>
+    
+    <script>
+        $(document).ready(function(){
+            $("a.user-l").click(function(){
+                $(".dropdown-content").toggle();
+            });
+        });
+    </script>
 
 </html>
